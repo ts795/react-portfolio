@@ -1,4 +1,4 @@
-import Navigation from "./components/Navigation";
+import Header from "./components/Header";
 import AboutMe from "./components/pages/AboutMe";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navigation />
+        <Header />
         <Route exact path="/" component={AboutMe} />
         <Route exact path="/aboutme" component={AboutMe} />
         <Route exact path="/portfolio" component={Portfolio} />
