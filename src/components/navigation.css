@@ -14,6 +14,11 @@
     text-decoration: none;
 }
 
+.active {
+    /* Set the active link to white */
+    color: white;
+}
+
 @media screen and (max-width: 792px) {
     .nav {
         flex-direction: column;
