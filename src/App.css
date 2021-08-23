@@ -11,7 +11,7 @@
 
 /* Set the color for the h1*/ 
 h1 {
-  color: var(--text-color1);
+  color: white;
 }
 
 h2 {
