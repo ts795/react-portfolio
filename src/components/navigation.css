@@ -10,6 +10,7 @@
 
 .nav-link {
     font-size: 200%;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 792px) {

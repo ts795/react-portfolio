@@ -1,0 +1,15 @@
+.card {
+    background-color: var(--background-color1);
+}
+.card img {
+    width: 98%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Make the project description appear over the image */
+.project-description {
+    background-color: var(--background-color1);
+    width: 100%;
+}
