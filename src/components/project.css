@@ -1,5 +1,7 @@
 .card {
     background-color: var(--background-color1);
+    flex-basis: 48%;
+    margin: 1%;
 }
 .card img {
     width: 98%;
@@ -12,4 +14,11 @@
 .project-description {
     background-color: var(--background-color1);
     width: 100%;
+}
+
+@media screen and (max-width: 792px) {
+    .card {
+        flex-basis: 98%;
+        margin: 1%;
+    }
 }
