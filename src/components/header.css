@@ -1,0 +1,31 @@
+#name-and-nav-links {
+    display: flex;
+    /* add 1% margins on left, right and bottom */
+    /* margin-left: 1%;
+    margin-right: 1%; */
+    margin-bottom: 1%;
+    background-image: url('../files/courtnie-tosana-X7DG-f7Y0xw-unsplash.jpg');
+    background-size: cover;
+}
+
+/* Show the name on the left */
+#name-and-nav-links h1 {
+    flex: auto;
+}
+
+/* Show the navigation links on the right and evenly distribute the space between the links */
+Navigation {
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-name {
+    font-size: 300%;
+}
+
+@media screen and (max-width: 792px) {
+    #name-and-nav-links {
+        flex-direction: column;
+    }
+}

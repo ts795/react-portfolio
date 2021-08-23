@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import "./navigation.css";
 
 function Navigation() {
   // We'll go into the Hooks API later, for now, we are just using some code

@@ -12,8 +12,6 @@
     display: flex;
     /* Make the content wrap to the next line if they overflow */
     flex-wrap: wrap;
-    /* Add a line between the content header and the content */
-    border-left: 5px solid var(--text-color1);
     padding-left: 1%;
 }
 
