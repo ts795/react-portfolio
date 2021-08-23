@@ -12,11 +12,13 @@
 /* Set the color for the h1*/ 
 h1 {
   color: white;
+  padding-left: 1%;
 }
 
 h2 {
   font-size: 175%;
   color: var(--text-color1);
+  padding-left: 1%;
 }
 
 /* Font size and padding for h3 elements */
@@ -24,4 +26,13 @@ h3 {
   font-size: 150%;
   color: var(--text-color2);
   padding: 3px;
+  padding-left: 1%;
+}
+
+p {
+  padding-left: 1%;
+}
+
+input, textarea {
+  margin-left: 1%;
 }

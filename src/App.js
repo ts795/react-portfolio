@@ -12,11 +12,12 @@ function App() {
     <Router>
       <div id="app-root">
         <Header />
-        <Route exact path="/" component={AboutMe} />
         <Route exact path="/aboutme" component={AboutMe} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/react-portfolio" component={AboutMe} />
+        <Route exact path="/" component={AboutMe} />
         <Footer />
       </div>
     </Router>
