@@ -1,11 +1,13 @@
 #contact-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /* Size links as per width and height but grow and shrink to with the container */
 #contact-links a {
     flex: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .content {
@@ -13,15 +15,4 @@
     /* Make the content wrap to the next line if they overflow */
     flex-wrap: wrap;
     padding-left: 1%;
-}
-
-/* Stack content for small screens */
-@media screen and (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        /* Remove the dividing line for the columns */
-        border-left: none;
-        padding-left: 1%;
-        padding-bottom: 1%;
-    }
 }
