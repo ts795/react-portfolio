@@ -3,8 +3,8 @@ import "./project.css";
 
 function Project(props) {
   return (
-    <section class="card">
-      <div class="project-description">
+    <section className="card">
+      <div className="project-description">
         <h3>{props.name}</h3>
         <p>{props.description}</p>
         <a href={props.github_link} target="_blank" rel="noreferrer">Github Link</a>
