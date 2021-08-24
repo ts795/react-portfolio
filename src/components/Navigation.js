@@ -11,7 +11,7 @@ function Navigation() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/aboutme" className={location.pathname === "/aboutme" || location.pathname === "/" || location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"}>
+        <Link to="/aboutme" className={location.pathname === "/aboutme" || location.pathname === "/" || location.pathname === "/react-portfolio" || location.pathname === "/react-portfolio/" ? "nav-link active" : "nav-link"}>
           About me
         </Link>
       </li>
